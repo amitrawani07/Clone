@@ -1,3 +1,3 @@
 # my clone 
 
-this is my clone project.
+this is my clone project!.
