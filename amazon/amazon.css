@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.main_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 25%;
+    height: 4em;
+}
+.location{
+    background-color: antiquewhite;
+    width: 25%;
+}
+.search{
+    background-color: bisque;
+    width: 25%;
+}
+.login{
+    background-color: blue;
+    width: 25%;
+}
+.logo img{
+}

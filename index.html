@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./spotify/logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1;">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+
+        <div class="library">
+          <div class="option">
+            <div class="lib-option nav-option">
+            <img src="./spotify/library_icon.png" alt="library">
+            <a href="#">your library</a>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="box">
+            <p class="box-1">Create your first playlist</p>
+            <p class="box-2">It's easy,we'll help you</p>
+            <button class="badge">create playlist</button>
+          </div>
+          <div class="box">
+            <p class="box-1">Let's find some podcast to follow</p>
+            <p class="box-2">We'll keep you updated on new episodes</p>
+            <button class="badge">browse podcast</button>
+          </div>
+        </div>
+
+       </div>
+       <div class="main_content">
+          <div class="sticky-nav">
+            <div class="sticky-nav-icons">
+            <img src="./spotify/backward_icon.png" alt="backward_icon">
+            <img src="./spotify/forward_icon.png" alt="forward_icon" class="hide">
+            </div>
+            <div class="sticky-nav-option">
+            <button class="badge common hide">explore prenium</button>
+            <button class="badge common dark-badge"><i class="fa-regular fa-circle-down"></i> install App</button>
+            <i class="fa-regular fa-user common"></i>
+            </div>
+          </div>
+            <h2>Recently played</h2>
+              <div class="card-container">
+                <div class="card">
+                  <img src="./spotify/card1img.jpeg" alt="top" class="card-img">
+                  <p class="card-tittle">top 50 songs</p>
+                  <p class="card-info">you daily update of the most played track right...</p>
+                </div>
+              </div>
+              <h2>new song now</h2>
+              <div class="card-container">
+                <div class="card">
+                  <img src="./spotify/card2img.jpeg" alt="top" class="card-img">
+                  <p class="card-tittle">top 50 songs</p>
+                  <p class="card-info">you daily update of the most played track right...</p>
+                </div>
+
+                <div class="card">
+                  <img src="./spotify/card3img.jpeg" alt="top" class="card-img">
+                  <p class="card-tittle">top 50 songs</p>
+                  <p class="card-info">you daily update of the most played track right...</p>
+                </div>
+
+                <div class="card">
+                  <img src="./spotify/card4img.jpeg" alt="top" class="card-img">
+                  <p class="card-tittle">top 50 songs</p>
+                  <p class="card-info">you daily update of the most played track right...</p>
+                </div>
+
+                <div class="card">
+                  <img src="./spotify/card2img.jpeg" alt="top" class="card-img">
+                  <p class="card-tittle">top 50 songs</p>
+                  <p class="card-info">you daily update of the most played track right...</p>
+                </div>
+
+                <div class="card">
+                  <img src="./spotify/card4img.jpeg" alt="top" class="card-img">
+                  <p class="card-tittle">top 50 songs</p>
+                  <p class="card-info">you daily update of the most played track right...</p>
+                </div>
+              </div>
+              <h2>feature chart</h2>
+              <div class="card-container">
+                <div class="card">
+                  <img src="./spotify/card5img.jpeg" alt="top" class="card-img">
+                  <p class="card-tittle">top 50 songs</p>
+                  <p class="card-info">you daily update of the most played track right...</p>
+                </div>
+                <div class="card">
+                  <img src="./spotify/card6img.jpeg" alt="top" class="card-img">
+                  <p class="card-tittle">top 50 songs</p>
+                  <p class="card-info">you daily update of the most played track right...</p>
+                </div>
+           </div>
+            <div class="footer">
+              <div class="line"></div>
+            </div>
+           <br><br><br><br><br><br>
+      </div>
+      <div class="music-player">
+        <div class="album">
+            <div class="album-content">
+              <img src="./spotify/homeword/album_picture.jpeg" class="album-image album-common">
+              <div class="album-common" id="para">
+              <div><a class="name">daylight</a></div>
+              <div><a class="singer">david khushner</a></div>
+              </div>
+              <img src="./spotify/homeword/album_icon1.png" alt="icon" class="album-icon album-common">
+            </div>
+        </div>
+        <div class="player">
+          <div class="player-control">
+            <img src="./spotify/player_icon1.png" class="player-control-icon">
+            <img src="./spotify/player_icon2.png" class="player-control-icon">
+            <img src="./spotify/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+            <img src="./spotify/player_icon4.png" class="player-control-icon">
+            <img src="./spotify/player_icon5.png" class="player-control-icon">
+          </div>
+          <div class="playback-bar">
+            <span class="progress-time">00:00</span>
+            <input type="range" min="0" max="100" class="process-bar" step="1">
+            <span class="progress-time">03:33</span>
+          </div>
+        </div>
+        <div class="control">
+          <div class="control-content">
+            <img src="./spotify/homeword/controls_icon1.png" class="control-icon">
+            <img src="./spotify/homeword/controld_icon2.png" class="control-icon">
+            <img src="./spotify/homeword/controls_icon3.png" class="control-icon unique">
+            <img src="./spotify/homeword/controls_icon4.png" class="control-icon unique">
+            <img src="./spotify/homeword/controls_icon5.png" class="control-icon">
+            <input type="range" class="process-bar2 control-icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
